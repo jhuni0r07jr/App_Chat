@@ -73,7 +73,7 @@ const Salvando = (event) => {
     Login.style.display = "none";
     Chat.style.display = "flex";
 
-    websocket = new WebSocket("wss://chat-de-conversa.onrender.com");
+    websocket = new WebSocket("wss://app-chat-9rmh.onrender.com");
     websocket.onmessage = ProcessandoMensagem;
 }
 
