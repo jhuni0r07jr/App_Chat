@@ -9,6 +9,8 @@
 }
 
 body{
+    width: 100dvw;
+    height: 100dvh;
     background-size: cover;
     background: url("./Imagens/Background.jpg");
 }
